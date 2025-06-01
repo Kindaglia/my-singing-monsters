@@ -1,183 +1,98 @@
 body {
-    font-family: "ubuntu", "sans-serif";
-    text-align: center;
-    background-color: #68B984;
-    color: #3D5656;
-
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #68B984;
+  color: #3D5656;
 }
 
-
-/*title section */
-
+/* Title section */
 #title {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 h1 {
-    font-family: "Gloria Hallelujah", "cursive";
-    font-weight: 900;
-    font-size: 5rem;
-    margin: 50px;
-
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 900;
+  font-size: 5rem;
+  margin: 50px;
 }
 
-
 #name-button {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 #input-name {
-    height: 50px;
+  height: 50px;
 }
 
-
 .container {
-    width: 400px;
+  width: 400px;
 }
 
 .container-col {
-    padding: 10px;
+  padding: 10px;
 }
 
-/*end of title section*/
-
-
-/*start of monster section*/
-
-
+/* Monster base styles */
 .monster {
-    background-size: 150px;
-    width: 150px;
-    height: 150px;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 150px;
 }
 
 .monster-background-color {
-    background-color: #ff4c68;
+  background-color: #ff4c68;
 }
 
-.mammott {
-    background-image: url("images/mammott.png");
-}
+/* Monster sprites - consolidated approach */
+.mammott { background-image: url("images/mammott.png"); }
+.drumpler { background-image: url("images/drumpler.png"); }
+.kayna { background-image: url("images/kayna.png"); }
+.clamble { background-image: url("images/clamble.png"); }
+.furcorn { background-image: url("images/furcorn.png"); }
+.tweedle { background-image: url("images/tweedle.png"); }
+.quibble { background-image: url("images/quibble.png"); }
+.tawkerr { background-image: url("images/tawker.png"); }
+.rare-jammer { background-image: url("images/rare-jammer.png"); }
+.noggin { background-image: url("images/noggin.png"); }
+.shrubb { background-image: url("images/shrub.png"); }
+.parlsona { background-image: url("images/parlsona.png"); }
+.potbelly { background-image: url("images/potbelly.png"); }
+.maw { background-image: url("images/maw.png"); }
+.stoowarb { background-image: url("images/stoowarb.png"); }
+.stogg { background-image: url("images/stogg.png"); }
+.bowhead { background-image: url("images/bowhead.png"); }
+.wubbox { background-image: url("images/Wubbox.png"); }
+.rare-wubbox { background-image: url("images/Rare-Wubbox.png"); }
+.hoola { background-image: url("images/hoola.png"); }
+.pompom { background-image: url("images/pompom.png"); }
+.scups { background-image: url("images/scups.png"); }
+.quarrister { background-image: url("images/quarrister.png"); }
+.epic-wubbox-earth { background-image: url("images/epic-wubbox-earth.png"); }
 
-.drumpler {
-    background-image: url("images/drumpler.png");
-}
-
-.kayna {
-    background-image: url("images/kayna.png");
-}
-
-.clamble {
-    background-image: url("images/clamble.png");
-}
-
-.furcorn {
-    background-image: url("images/furcorn.png");
-}
-
-.tweedle {
-    background-image: url("images/tweedle.png");
-}
-
-.quibble {
-    background-image: url("images/quibble.png");
-}
-
-.tawkerr {
-    background-image: url("images/tawker.png");
-}
-
-.rare-jammer {
-    background-image: url("images/rare-jammer.png");
-}
-
-.noggin {
-    background-image: url("images/noggin.png");
-}
-
-.shrubb {
-    background-image: url("images/shrub.png");
-}
-
-.parlsona {
-    background-image: url("images/parlsona.png");
-}
-
-.potbelly {
-    background-image: url("images/potbelly.png");
-}
-
-.maw {
-    background-image: url("images/maw.png");
-}
-
-.stoowarb {
-    background-image: url("images/stoowarb.png");
-}
-
-.stogg {
-    background-image: url("images/stogg.png");
-}
-
-.bowhead {
-    background-image: url("images/bowhead.png");
-}
-
-.Wubbox {
-    background-image: url("images/Wubbox.png");
-}
-
-.Rare-Wubbox {
-    background-image: url("images/Rare-Wubbox.png");
-}
-
-.hoola {
-    background-image: url("images/hoola.png");
-}
-
-.pompom {
-    background-image: url("images/pompom.png");
-}
-
-.scups {
-    background-image: url("images/scups.png");
-}
-
-.quarrister {
-    background-image: url("images/quarrister.png");
-}
-
-.epic-wubbox-earth  {
-    background-image: url("images/epic-wubbox-earth.png");
-}
-
+/* Layout styles */
 .col-lg-2.col-md-4 {
-    padding: 15px;
+  padding: 15px;
 }
 
 .container.text-center.monster-list {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
 }
 
 .row {
-    text-align: center;
+  text-align: center;
 }
 
-/*mystery-monsters section*/
-
+/* Mystery monsters section */
 .mystery {
-    background-image: url("images/mystery.png");
+  background-image: url("images/mystery.png");
 }
 
 .name {
-    margin: 0 auto;
-    width: 75%;
+  margin: 0 auto;
+  width: 75%;
 }
-
-
-
-
-
-
