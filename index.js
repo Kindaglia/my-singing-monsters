@@ -25,7 +25,9 @@ const monsters = {
     'pompom': 'sounds/pompom.mp3',
     'scups': 'sounds/scups.mp3',
     'quarrister': 'sounds/quarrister.mp3',
-    'epic-wubbox-earth': 'sounds/epic-wubbox.mp3'
+    'epic-wubbox-earth': 'sounds/epic-wubbox.mp3',
+    'yawstrich-air-island': 'sounds/yawstrich-air-island.mp3',
+    'yawstrich-mythical-island': 'sounds/yawstrich-mythical-island.mp3'
 };
 
 // ===============================
