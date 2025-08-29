@@ -74,6 +74,9 @@ h1 {
 .epic-wubbox-earth { background-image: url("images/epic-wubbox-earth.png"); }
 .yawstrich-air-island { background-image: url("images/yawstrich-air-island.png"); }
 .yawstrich-mythical-island { background-image: url("images/yawstrich-mythical-island.png"); }
+.monculus-wublin-island { background-image: url("images/monculus-wublin-island.png"); }
+.monculus-ethereal-island { background-image: url("images/monculus-ethereal-island.png"); }
+.monculus-seasonal-shanty { background-image: url("images/monculus-seasonal-shanty.png"); }
 
 /* Layout styles */
 .col-lg-2.col-md-4 {

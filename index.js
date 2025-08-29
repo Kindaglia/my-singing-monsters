@@ -27,7 +27,10 @@ const monsters = {
     'quarrister': 'sounds/quarrister.mp3',
     'epic-wubbox-earth': 'sounds/epic-wubbox.mp3',
     'yawstrich-air-island': 'sounds/yawstrich-air-island.mp3',
-    'yawstrich-mythical-island': 'sounds/yawstrich-mythical-island.mp3'
+    'yawstrich-mythical-island': 'sounds/yawstrich-mythical-island.mp3',
+    'monculus-wublin-island': 'sounds/monculus-wublin-island.mp3',
+    'monculus-ethereal-island': 'sounds/monculus-ethereal-island.mp3',
+    'monculus-seasonal-shanty': 'sounds/monculus-seasonal-shanty.mp3'
 };
 
 // ===============================
